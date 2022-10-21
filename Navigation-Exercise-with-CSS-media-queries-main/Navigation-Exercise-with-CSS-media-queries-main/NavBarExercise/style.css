@@ -1,0 +1,23 @@
+.navbar{
+    background-color: black;
+    color: beige;
+    padding: 30px;
+    display: box;
+    text-align: center;
+}
+.item{
+    font-size: 50x;
+    align-items: center;
+}
+@media screen and (min-width:768px){
+    .navbar{
+        display:flex;
+        flex-direction: row-reverse;
+    }
+    body{
+        background-color: gray;
+    }
+    .item{
+        padding-left: 30px;
+    }
+}
